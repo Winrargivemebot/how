@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>How Do I Do This? - A Classic 90s Website</title>
+  <style>
+    body {
+      background-color: #ffffff;
+      color: #2c2a21; /* Yellow color */
+      font-family: "Comic Sans MS", cursive, sans-serif;
+      line-height: 1.6;
+      text-align: center;
+      animation: flashingBackground 2s linear infinite alternate;
+    }
+
+    @keyframes flashingBackground {
+      0% {
+        background-color: #ffffff;
+      }
+      100% {
+        background-color: #000000;
+      }
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      background-color: #FF6EC7; /* Vice City pink */
+      padding: 20px;
+      border: 2px solid #FFCC00; /* Yellow color */
+      border-radius: 10px;
+      animation: flashingContainer 0.5s linear infinite alternate;
+    }
+
+    @keyframes flashingContainer {
+      0% {
+        background-color: #FF6EC7; /* Vice City pink */
+      }
+      100% {
+        background-color: #ffffff;
+      }
+    }
+
+    h1, h2 {
+      color: #FF6EC7; /* Vice City pink */
+      animation: flashingText 1s linear infinite alternate;
+    }
+
+    @keyframes flashingText {
+      0% {
+        color: #FF6EC7; /* Vice City pink */
+      }
+      100% {
+        color: #ffffff;
+      }
+    }
+
+    a {
+      color: #1f1a04; /* Yellow color */
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    img {
+      display: block;
+      margin: 0 auto;
+      border: 2px solid #ffffff;
+      max-width: 100%;
+    }
+
+    .gif {
+      text-align: center;
+    }
+
+    input[type="text"],
+    input[type="url"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 2px solid #141003; /* Yellow color */
+      background-color: #333333;
+      color: #ffffff;
+      border-radius: 5px;
+    }
+
+    /* Sunset-like background */
+    body {
+      background-image: linear-gradient(135deg, #ffbebe, #f7c5ac, #e5d199, #d3db87, #b1e376);
+      background-size: cover;
+    }
+    
+    /* Sunset image */
+    .sunset-image {
+      display: block;
+      margin: 20px auto;
+      max-width: 800px;
+      border: 2px solid #FFCC00; /* Yellow color */
+      border-radius: 10px;
+    }
+
+    /* Left and Right Images */
+    .left-image {
+      position: absolute;
+      top: 50%;
+      left: 20px;
+      transform: translateY(-50%);
+      max-width: 200px; /* Increased width */
+      border: 2px solid #FFCC00; /* Yellow color */
+      border-radius: 10px;
+      animation: flashingImage 1s linear infinite alternate;
+    }
+
+    .right-image {
+      position: absolute;
+      top: 50%;
+      right: 20px;
+      transform: translateY(-50%);
+      max-width: 200px; /* Increased width */
+      border: 2px solid #FFCC00; /* Yellow color */
+      border-radius: 10px;
+      animation: flashingImage 1s linear infinite alternate;
+    }
+
+    @keyframes flashingImage {
+      0% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 0.5;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>How Do I Do This?</h1>
+    <p>Are you struggling with something? Don't worry, you're not alone! Check out these classic, stupid questions people always ask:</p>
+
+    <h2>Stupid Questions</h2>
+    <ul>
+      <!-- Previous questions... -->
+      <li>How do I sell this token?</li>
+      <li>What is the next marketing plan?</li>
+      <li>Is the dev team active?</li>
+      <li>Are there any calls lined up?</li>
+      <li>How do I use low slippage?</li>
+      <li>How do I make a tweet go viral?</li>
+      <li>How do I swap ETH for other cryptocurrencies?</li>
+      <li>How do I apply a retro filter to my photos?</li>
+      <li>How do I become an overnight social media sensation?</li>
+      <li>How do I join Telegram? <a href="https://telegram.org/" target="_blank">Telegram</a></li>
+      <li>How do I watch Chart? <a href="https://telegram.org/" target="_blank">Dextools</a></li>
+      <li>How do I buy? <a href="https://telegram.org/" target="_blank">Uniswap</a></li>
+    </ul>
+  </div>
+
+  <!-- Left Image -->
+  <img class="left-image" src="https://c4.wallpaperflare.com/wallpaper/918/837/294/grand-theft-auto-grand-theft-auto-vice-city-tommy-vercetti-hd-wallpaper-preview.jpg" alt="Left Image">
+
+  <!-- Sunset image -->
+  <img class="sunset-image" src="https://rare-gallery.com/thumbs/340053-Palm-Tree-Retrowave-Synthwave-Vaporwave-Digital-Art.jpg" alt="Sunset">
+
+  <!-- Right Image -->
+  <img class="right-image" src="https://i.ibb.co/zPsrnwT/logo-meme.png" alt="Right Image">
+</body>
+</html>
